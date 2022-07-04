@@ -1,5 +1,5 @@
 #Eingabe
-print("Bitte geben Sie einen Inch(Zoll-Wert) ein:")
+print("Bitte geben Sie den Inch-Wert ein:")
 
 #Variablen
 a=input()
@@ -10,4 +10,5 @@ b=2.54
 c=a_float*b
 
 #Ausgabe
-print("Das sind Zentimter:",c)
+print(a)
+print(a,"Inch sind",c,"cm")
